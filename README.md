@@ -14,12 +14,12 @@ Antes de começar, você precisará ter o Node.js e o npm (ou Yarn) instalados n
 
 1. Clone o repositório do projeto:
     ```
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/AlisonMuniz/AvOficial2-QA.git
     ```
    
 3. Navegue até o diretório do projeto:
    ```
-    cd seu-repositorio
+    cd AvOficial2-QA
     ```
 4. Instale as dependências do projeto:
 
