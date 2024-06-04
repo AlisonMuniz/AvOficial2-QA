@@ -66,3 +66,5 @@ Antes de começar, você precisará ter o Node.js e o npm (ou Yarn) instalados n
      ```
       yarn run cypress run
      ```
+    ## Mais informações
+    Para mais informações sobre como utilizar o Cypress, consulte a <a href="https://docs.cypress.io/guides/overview/why-cypress/">documentação oficial.</a>
