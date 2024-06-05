@@ -7,9 +7,12 @@ describe("Usuário solicita dados da matrícula de um aluno com todas as mensali
             'Content-Type': 'application/json'
         }
     };
+
     it("verifica se é retornado uma resposta com dados da matricula", () => {
         cy.request(requestTest)
             .then((response) => {
+                // Verifica se o status code da resposta é 200
+                expect(response.status).to.eq(200);
                 // Verifica se o corpo da resposta não está vazia.
                 expect(response.body)
                   .to.not.be.empty;

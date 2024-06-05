@@ -10,6 +10,8 @@ describe("Usuário solicita dados da matrícula de um aluno bolsista 100%", () =
     it("verifica se a mensalidade está zerada e a data de vencimento é nula", () => {
         cy.request(requestTest)
             .then((response) => {
+                // Verifica se o status code da resposta é 200
+                expect(response.status).to.eq(200);
                 // Verifica se o campo "amount" está com o valor zerado.
                 expect(response.body.tuition.amount).to.eq(0.0);
                 // Verifica se o campo "dueDate" está retornando null.

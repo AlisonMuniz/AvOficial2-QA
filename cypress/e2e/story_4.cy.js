@@ -11,6 +11,9 @@ describe("Usuário solicita dados da matrícula de um aluno bolsista 50%", () =>
     it("Verifica se resposta contém TODOS os dados da matrícula", () => {
         cy.request(requestTest)
             .then((response) => {
+                
+                // Verifica se o status code da resposta é 200
+                expect(response.status).to.eq(200);
 
                 // Verifica se o campo "id" está presente no corpo da resposta e não está vazio
                 expect(response.body).to.have.property('id')
