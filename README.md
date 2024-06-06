@@ -41,5 +41,11 @@ Antes de começar, você precisará ter o Node.js e o npm (ou Yarn) instalados n
      ```
       npx cypress run
      ```
+10. OBSERVAÇÃO...
+    Lembre se de levantar a API antes de rodar os testes.
+    Execute com o: Intellij Idea Community
+    URL da API: https://github.com/PHPauloReis/oficial2-matriculas-api/
+
+    
     ## Mais informações
     Para mais informações sobre como utilizar o Cypress, consulte a <a href="https://docs.cypress.io/guides/overview/why-cypress/">documentação oficial.</a>
