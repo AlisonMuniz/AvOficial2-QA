@@ -43,7 +43,9 @@ Antes de começar, você precisará ter o Node.js e o npm (ou Yarn) instalados n
      ```
 10. OBSERVAÇÃO...
     Lembre se de levantar a API antes de rodar os testes.
+    
     Execute com o: Intellij Idea Community
+    
     URL da API: https://github.com/PHPauloReis/oficial2-matriculas-api/
 
     
